@@ -4,6 +4,9 @@ import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
 import AboutText from "@/components/AboutSection";
 import Wave2 from "@/components/Wave2";
+import TechnologiesSection from "@/components/TechnologiesSection";
+import Wave3 from "@/components/Wave3";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
       <Wave1 />
       <AboutText />
       <Wave2 />
+      <TechnologiesSection />
+      <Wave3 />
+      <ProjectsSection />
     </main>
   );
 }

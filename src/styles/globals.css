@@ -18,3 +18,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
+h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #d676de;
+  font-family: var(--roboto);
+  margin-bottom: 3rem;
+  font-size: 28px;
+}
+.backSvg {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}

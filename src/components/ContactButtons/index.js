@@ -1,7 +1,6 @@
 import Image from "next/image";
 import linkedinIcon from "../../assets/linkedin.svg";
 import githubLogo from "../../assets/github.svg";
-import Link from "next/link";
 import { ContactButtons_ } from "./style";
 
 export default function ContactButtons() {

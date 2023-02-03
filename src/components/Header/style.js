@@ -10,6 +10,13 @@ export const Header_ = styled.header`
   font-weight: bold;
   color: #ffffff;
   padding-top: 3.7rem;
+  .link {
+    transition: 0.3s;
+  }
+  .link:hover {
+    color: #e39dee;
+  }
+
   .link + .link {
     margin-left: 4.5rem;
   }
