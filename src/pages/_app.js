@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--inter" });
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
   variable: "--roboto",
-  weight: "500",
+  weight: "400",
 });
 
 export default function App({ Component, pageProps }) {
