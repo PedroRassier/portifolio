@@ -2,7 +2,11 @@ import "@/styles/globals.css";
 import { Inter, Roboto_Mono } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--inter" });
-const robotoMono = Roboto_Mono({ subsets: ["latin"], variable: "--roboto" });
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+  variable: "--roboto",
+  weight: "500",
+});
 
 export default function App({ Component, pageProps }) {
   return (
