@@ -14,23 +14,13 @@ export default function TechnologiesSection() {
           imageSrc={reactLogo}
           technolgy="React"
           alt="React-Logo"
-          width={140}
-          heigth={140}
         />
-        <TechnologyCard
-          imageSrc={nextLogo}
-          technolgy="Next"
-          alt="Next-Logo"
-          width={136}
-          heigth={136}
-        />
+        <TechnologyCard imageSrc={nextLogo} technolgy="Next" alt="Next-Logo" />
         <TechnologyCard
           id="styledCard"
           imageSrc={styledLogo}
           technolgy="styled-components"
           alt="Styled-componentes-logo"
-          width={160}
-          heigth={160}
         />
       </div>
     </TechnologiesSection_>

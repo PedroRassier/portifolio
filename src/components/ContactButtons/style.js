@@ -6,7 +6,7 @@ export const ContactButtons_ = styled.div`
   button {
     border: 0;
     font-family: var(--roboto);
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -15,6 +15,10 @@ export const ContactButtons_ = styled.div`
     display: flex;
     align-items: center;
     border-radius: 10px;
+  }
+  img {
+    width: 4.5rem;
+    height: 4.5rem;
   }
   #linkedinBtn {
     background-color: #d676de;

@@ -2,15 +2,13 @@ import Image from "next/image";
 import linkedinIcon from "../../assets/linkedin.svg";
 import githubLogo from "../../assets/github.svg";
 import { ContactButtons_ } from "./style";
-import { LinkedinLogo } from "phosphor-react";
 
 export default function ContactButtons() {
   return (
     <ContactButtons_>
       <a href="https://www.linkedin.com/in/pedro-rassier/" target="_blank">
         <button id="linkedinBtn">
-          {/* <Image src={linkedinIcon} width={72} height={72} /> */}
-          <LinkedinLogo size={72} />
+          <Image src={linkedinIcon} />
           <p>LinkedIn</p>
         </button>
       </a>
@@ -19,7 +17,7 @@ export default function ContactButtons() {
         target="_blank"
       >
         <button id="githubBtn">
-          <Image src={githubLogo} width={72} height={72} />
+          <Image src={githubLogo} />
           <p>GitHub</p>
         </button>
       </a>

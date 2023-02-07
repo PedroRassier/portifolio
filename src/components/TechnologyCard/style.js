@@ -10,9 +10,13 @@ export const TechnologyCard_ = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  img {
+    width: 8rem;
+    height: 8rem;
+  }
   p {
     margin-top: 2rem;
     font-family: var(--roboto);
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 `;

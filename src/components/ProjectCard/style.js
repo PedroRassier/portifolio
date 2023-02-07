@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ProjectCard_ = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: #333333;
   color: #ffffff;
   padding: 1rem;
@@ -11,8 +12,8 @@ export const ProjectCard_ = styled.div`
   border-radius: 10px;
   margin-bottom: 5rem;
   h4 {
+    font-size: 1.5rem;
     font-family: var(--roboto);
-    margin-top: 1.5rem;
   }
 
   #projectImage {
@@ -21,6 +22,10 @@ export const ProjectCard_ = styled.div`
   }
   p {
     font-family: var(--inter);
+  }
+  img {
+    width: 3.125rem;
+    height: 3.125rem;
   }
 
   button {

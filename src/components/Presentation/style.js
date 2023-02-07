@@ -9,13 +9,13 @@ export const Presentation_ = styled.div`
   }
   h2 {
     margin-bottom: 2rem;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #d676de;
   }
   #presentationText {
     margin-bottom: 1rem;
     width: 36.8rem;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #ffffff;
   }
 `;

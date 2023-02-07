@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GlobeHemisphereWest } from "phosphor-react";
+import Globe from "../../assets/Globe.svg";
 import githubLogo from "../../assets/gitHubWithoutBG.svg";
 import { ProjectCard_ } from "./style";
 
@@ -18,7 +18,7 @@ export default function ProjectCard(props) {
         </a>
         <a href={props.deployLink} target="_blank">
           <button id="deployGlobeLogo">
-            <GlobeHemisphereWest size={48} color="#ffffff" />
+            <Image src={Globe} />
           </button>
         </a>
       </div>
