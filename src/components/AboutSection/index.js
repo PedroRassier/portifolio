@@ -6,22 +6,21 @@ export default function AboutText() {
       <div id="about"></div>
       <h3>Sobre mim</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc
-        mauris, condimentum id mauris eget, sollicitudin iaculis nisl.
-        Vestibulum ac scelerisque lectus. Aliquam porta arcu et fringilla
-        aliquet. Suspendisse sed euismod arcu. Morbi a hendrerit nisi, id
-        egestas magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Phasellus ultricies nunc vel maximus efficitur. Fusce non consequat
-        orci. Quisque in bibendum urna.
+        Estudo para me tornar um desenvolvedor web cada vez melhor a cerca de 1
+        ano, antes, meu sonho sempre foi ser arquiteto, por esse motivo estou no
+        curso técnico de Design de Interiores, porém, durante a pandemia eu
+        decidi voltar a explorar paixões antigas, sendo a programação uma delas,
+        logo voltei a pesquisar sobre e me aventurar no mundo do desenvolvimento
+        web.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc
-        mauris, condimentum id mauris eget, sollicitudin iaculis nisl.
-        Vestibulum ac scelerisque lectus. Aliquam porta arcu et fringilla
-        aliquet. Suspendisse sed euismod arcu. Morbi a hendrerit nisi, id
-        egestas magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Phasellus ultricies nunc vel maximus efficitur. Fusce non consequat
-        orci. Quisque in bibendum urna.
+        Sou uma pessoa extremamente curiosa e animada, acredito que o
+        desenvolvimento web me permite expressar e suprir estes traços da melhor
+        forma, há sempre uma nova ferramenta ou tecnologia a se explorar, sempre
+        um novo site para criar, uma nova história, afinal, um site carrega a
+        história de alguém, ou de uma empresa, independente do seu propósito.
+        Por ser aluno de um curso de design entendo o poder que um bom design e
+        um bom site tem, o poder de convencer, abraçar e informar os usuários.
       </p>
     </AboutSection_>
   );

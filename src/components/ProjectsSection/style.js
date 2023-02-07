@@ -10,4 +10,8 @@ export const ProjectsSection_ = styled.div`
     display: flex;
     justify-content: space-evenly;
   }
+  #projects {
+    position: relative;
+    top: -10rem;
+  }
 `;

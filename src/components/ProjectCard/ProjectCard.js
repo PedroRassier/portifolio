@@ -1,24 +1,24 @@
 import Image from "next/image";
-import githubLogo from "../../assets/github.svg";
-import globeLogo from "../../assets/Globe.svg";
+import { GlobeHemisphereWest } from "phosphor-react";
+import githubLogo from "../../assets/gitHubWithoutBG.svg";
 import { ProjectCard_ } from "./style";
 
 export default function ProjectCard(props) {
   return (
     <ProjectCard_>
-      <Image src={props.src} width={365} height={254} />
+      <Image src={props.src} id="projectImage" />
       <h4>{props.projectName}</h4>
       <p>{props.projectDescription}</p>
       <div>
-        <p>Repositório e Deploy</p>
+        <p>Repositório e Deploy: </p>
         <a href={props.repository} target="_blank">
           <button id="repositoryGitHubLogo">
-            <Image src={githubLogo} width={72} height={72} />
+            <Image src={githubLogo} width={50} height={50} />
           </button>
         </a>
         <a href={props.deployLink} target="_blank">
           <button id="deployGlobeLogo">
-            <Image src={globeLogo} width={72} height={72} />
+            <GlobeHemisphereWest size={48} color="#ffffff" />
           </button>
         </a>
       </div>

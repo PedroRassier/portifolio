@@ -8,8 +8,8 @@ export default function Presentation() {
         <h1>Pedro Rassier</h1>
         <h2>Desenvolvedor ;</h2>
         <p id="presentationText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer diam
-          dui, scelerisque in vehicula ut, bibendum vitae mauris.
+          Bem vindo a minha página! Sou desenvolvedor web e busco oferecer
+          sempre o melhor resultado e produto para todos.
         </p>
       </div>
       <ContactButtons />

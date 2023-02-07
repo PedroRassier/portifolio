@@ -3,7 +3,7 @@ import { ProjectsSection_ } from "./style";
 
 export default function ProjectsSection() {
   return (
-    <ProjectsSection_>
+    <ProjectsSection_ id="projects">
       <h3>Projects</h3>
       <div id="projectsCards">
         <ProjectCard
